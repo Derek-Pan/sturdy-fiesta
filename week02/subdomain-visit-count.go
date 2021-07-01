@@ -6,6 +6,9 @@ import (
 	"strings"
 )
 
+
+// 子域名访问次数
+
 func subdomainVisits(cpdomains []string) []string {
 	result := make(map[string]int)
 	ans := make([]string, 0, 0)

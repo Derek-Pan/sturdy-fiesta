@@ -1,5 +1,7 @@
 package week02
 
+//LRU Cache的实现
+
 type LRUCache struct {
 	capacity int
 	size     int
