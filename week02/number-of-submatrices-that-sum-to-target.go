@@ -66,7 +66,7 @@ func (this *NumberMatrix) subMatrixSum(x1, y1, target int) (ans int) {
 
 
 
-
+//利用map进行解题思路暂时还没有理解,尴尬了!!!
 // type NumberMatrix struct {
 //     preSum [][]int
 // }
