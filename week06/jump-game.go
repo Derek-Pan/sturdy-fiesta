@@ -14,7 +14,6 @@ import "math"
 			当 F[i-1] >= i; max(F[i-1], i+nums[i])
 	F[i] =  当F[i-1] < i; F[i-1]
  */
- 
 func canJump(nums []int) bool {
 	var length int = len(nums)
 	var f []int = make([]int, length, length)
